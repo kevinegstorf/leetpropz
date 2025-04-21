@@ -1,6 +1,3 @@
-const nums: number[] = [2, 7, 11, 15];
-const target: number = 26;
-
 export const twoSum = (nums: number[], target: number): number[] => {
   const map = new Map<number, number>();
 
@@ -15,5 +12,5 @@ export const twoSum = (nums: number[], target: number): number[] => {
     map.set(num, i);
   }
 
-  throw new Error("No two sum solution");
+  throw new Error('No two sum solution');
 };
